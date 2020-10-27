@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <img class="img1" src="https://portal.fgv.br/sites/portal.fgv.br/files/noticias/08/18/trabalhador.jpg" alt="Trabalhador">
+   <h1>Calcúlo de sálario</h1>
+    <p>O seu sálario será calculo e seus direitos será informado</p>
+ <form onsubmit="formulario()">
+
+  <!--Nome  <input type="text" id="campo" placeholder="Quanto é seu salário?"-->
+ 
+ <!--<input type="submit" value="Enviar" />--> 
+
+Salário <input onclick="calcula()" id="Salario" value="0" name="SalarioI">
+<br>
+Desconto <input onclick="calcula()" id="Desconto" value="0" name="DescontoI">
+<br>
+Total <input id="Total" value="0" name="TotalF" readonly>
+<br>
+
+</form>
+</body>
+</html>

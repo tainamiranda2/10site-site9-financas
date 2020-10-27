@@ -1,0 +1,12 @@
+body{
+ background-color: rgb(116, 189, 189);
+}
+.img1{
+    width: 400px;
+    text-align: center;
+    float: right 60px;
+}
+input{
+    padding: 10px;
+    border-radius: 8%;
+}
